@@ -1,0 +1,30 @@
+﻿flyctl : ==> 
+Verifying app config
+At line:1 char:33
++ $env:Path += 
+";$HOME\.fly\bin"; 
+flyctl deploy 2>&1 | 
+Out-File -Encodi ...
++                    
+             
+~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (==> Ver   
+ ifying app confi    
+g:String) [], Re    
+moteException
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Validating C:\Users\User\OneDrive\画像\Desktop\Present\backend\fly.toml
+[32m✓[0m Configuration is valid
+--> Verified app 
+config
+Error: app not found 
+(Request ID: 01KHK551
+91ZE34SXB1KE66XC7Y-si
+n) (Trace ID: 996867e
+9dff5f446295f0a9bc596
+4de5)

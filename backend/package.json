@@ -1,0 +1,26 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "prisma:generate": "npx prisma@5 generate",
+        "prisma:migrate": "npx prisma@5 migrate dev",
+        "prisma:seed": "node prisma/seed.js",
+        "prisma:studio": "npx prisma@5 studio"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.11.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^2.0.0",
+        "prisma": "^5.22.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^7.0.7"
+    },
+    "dependencies": {
+        "@prisma/client": "^5.22.0",
+        "bcryptjs": "^3.0.3"
+    }
+}

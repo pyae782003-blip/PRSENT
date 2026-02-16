@@ -1,0 +1,42 @@
+﻿flyctl : 
+automatically 
+selected personal 
+organization: 
+pyae782003@gmail.com
+At line:1 char:33
++ ... 
+$HOME\.fly\bin"; 
+flyctl apps create 
+myanmar-presents-api 
+2>&1 | Out-F ...
++                    
+  ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (automat   
+ ically s...82003    
+@gmail.com:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Error: failed to run 
+mutation($input: 
+CreateAppInput!) { 
+createApp(input: 
+$input) { app { id 
+name organization { 
+slug } config { 
+definition } regions 
+{ name code } } } }: 
+We need your payment 
+information to 
+continue! Add a 
+credit card or buy 
+credit: https://fly.i
+o/dashboard/pyae78200
+3-gmail-com/billing
