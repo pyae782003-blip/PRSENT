@@ -17,7 +17,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-inner">
                 <Link to="/" className="navbar-logo" onClick={close}>
-                    <div className="navbar-logo-icon">✦</div>
+                    <img src="/logo.png" alt="Artisan's Memories" className="navbar-logo-img" />
                     <div>
                         <div className="navbar-logo-text">Artisan's Memories</div>
                         <div className="navbar-logo-sub">Handcrafted Treasures</div>
