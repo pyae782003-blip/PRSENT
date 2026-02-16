@@ -42,10 +42,7 @@ class PaymentController extends Controller
         // Upload to Cloudinary
         $result = $this->cloudinary()->uploadApi()->upload(
             $request->file('payment_slip')->getRealPath(),
-            [
-                'folder' => 'myanmar_presents/payments',
-                'resource_type' => 'image',
-            ]
+            ['folder' => 'myanmar_presents/payments']
         );
 
         $slipUrl = $result['secure_url'];
