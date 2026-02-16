@@ -20,7 +20,8 @@ export default function CartPage() {
             <h1 className="page-title">Shopping Cart</h1>
             <p className="page-subtitle">{totalItems} item{totalItems > 1 ? 's' : ''} in your cart</p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 360px', gap: '32px', alignItems: 'start' }}>
+            {/* Responsive Cart Layout */}
+            <div className="cart-layout">
                 {/* Cart Items */}
                 <div>
                     {items.map(item => (

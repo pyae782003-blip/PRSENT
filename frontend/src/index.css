@@ -2119,6 +2119,21 @@ select.form-input {
 }
 
 /* ═══════════ CART ITEMS ═══════════ */
+.cart-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .cart-layout {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    align-items: start;
+  }
+}
+
 .cart-item {
   display: flex;
   gap: 16px;
