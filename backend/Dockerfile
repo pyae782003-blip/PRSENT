@@ -27,7 +27,7 @@ WORKDIR /var/www/html
 
 # Copy composer files first (for Docker caching)
 COPY composer.json composer.lock ./
-RUN composer install --no-dev --optimize-autoloader --no-scripts
+RUN composer install --no-dev --optimize-autoloader --no-scripts --ignore-platform-reqs
 
 # Copy application files
 COPY . .
