@@ -37,7 +37,7 @@ export default function CheckoutPage() {
             <h1 className="page-title">Checkout</h1>
             <p className="page-subtitle">Complete your order</p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 360px', gap: '32px', alignItems: 'start' }}>
+            <div className="checkout-layout">
                 <div className="card-flat" style={{ padding: '28px' }}>
                     {error && <Alert variant="error">{error}</Alert>}
                     <form onSubmit={handleSubmit}>
