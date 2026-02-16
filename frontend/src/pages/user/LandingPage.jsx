@@ -33,7 +33,7 @@ export default function LandingPage() {
                     {/* Centered Pagoda icon */}
                     <PagodaDecor style={{ width: '100px', marginBottom: '32px' }} />
 
-                    <h1>မြန်မာ့လက်မှုပညာ</h1>
+                    <h1>Welcome to our hand made shop</h1>
                     <p style={{ margin: '0 auto 36px', textAlign: 'center' }}>Discover unique artisan gifts — lacquerware, textiles, jewelry, and treasures curated from Myanmar's finest workshops.</p>
                     <div className="hero-buttons" style={{ justifyContent: 'center' }}>
                         <Link to="/products"><Button size="lg">Shop Now <ArrowRight size={16} /></Button></Link>
