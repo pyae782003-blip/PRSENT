@@ -51,7 +51,7 @@ export default function OrderDetailPage() {
                 <Badge variant={statusColor[order.status] || 'default'}>{order.status}</Badge>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+            <div className="order-detail-layout">
                 {/* Items */}
                 <div className="card-flat" style={{ padding: '24px' }}>
                     <h3 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '16px' }}>Items</h3>

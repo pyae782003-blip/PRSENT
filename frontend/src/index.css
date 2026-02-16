@@ -2149,6 +2149,20 @@ select.form-input {
   }
 }
 
+.order-detail-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .order-detail-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .cart-item {
   display: flex;
   gap: 16px;

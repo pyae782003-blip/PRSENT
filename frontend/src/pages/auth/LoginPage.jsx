@@ -14,7 +14,11 @@ export default function LoginPage() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true); setError('');
-        try { await login(email, password); navigate('/'); }
+        try {
+            const user = await login(email, password);
+            if (user.role === 'admin') navigate('/admin');
+            else navigate('/');
+        }
         catch (err) { setError(err.response?.data?.message || 'Login failed'); }
         finally { setLoading(false); }
     };
